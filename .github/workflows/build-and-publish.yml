@@ -24,7 +24,6 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: WebGL
-          customParameters: -UncompressedAssetBundle
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
